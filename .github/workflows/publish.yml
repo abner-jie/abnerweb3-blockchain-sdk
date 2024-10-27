@@ -28,7 +28,7 @@ jobs:
         run: pnpm install
 
       - name: Run build
-        run: pnpm build-all # 如果有构建过程，保留此步骤；否则可省略
+        run: pnpm build # 如果有构建过程，保留此步骤；否则可省略
 
       - name: Publish to npm
         env:
