@@ -4,7 +4,7 @@
   "description": "Web3 multi chain SDK",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abner-jie/blockchain-sdk.git"
+    "url": "git+https://github.com/abner-jie/abnerweb3-blockchain-sdk.git"
   },
   "license": "MIT",
   "keywords": [
@@ -26,7 +26,7 @@
     "docs": "typedoc --entryPoints src/index.ts",
     "clean": "rm -rf dist build package",
     "ts-node": "ts-node",
-    "build": "pnpm test && tsc -p tsconfig.json",
+    "build": "npm",
     "build-all": "yarn clean && pnpm test && yarn build"
   },
   "devDependencies": {
@@ -62,12 +62,12 @@
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/abner-jie/blockchain-sdk/issues"
+    "url": "https://github.com/abner-jie/abnerweb3-blockchain-sdk/issues"
   },
-  "homepage": "https://github.com/abner-jie/blockchain-sdk#readme",
+  "homepage": "https://github.com/abner-jie/abnerweb3-blockchain-sdk#readme",
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
-  "author": ""
+  "author": "@abner.sun"
 }
