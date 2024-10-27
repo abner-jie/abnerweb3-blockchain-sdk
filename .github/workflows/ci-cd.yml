@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '19' # 指定 Node.js 版本
+          registry-url: 'https://registry.npmjs.org'
           cache: 'pnpm' # 启用 pnpm 缓存
 
       - name: Install pnpm
