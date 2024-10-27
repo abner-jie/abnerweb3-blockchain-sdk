@@ -2,11 +2,14 @@
 
 ## setup
 
-```bash
+## Install
 
-pnpm install
+To install, add the [`@abnerweb3/blockchain-sdk
+`](https://www.npmjs.com/package/@abnerweb3/blockchain-sdk) package to your
+project:
 
-pnpm build
+```sh npm2yarn
+npm i @abnerweb3/blockchain-sdk
 
 ```
 
