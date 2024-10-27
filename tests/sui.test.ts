@@ -11,6 +11,6 @@ test('sui', () => {
   ).toSuiAddress()
 
   expect(address).toBe(
-    '0xb1d6c3e4b3a5f7d7444dbcc175ed7792d3bdc862e3f3be18a3cad84522ac34fd'
+    '0xb1d6c3e4b3a5f7d7444dbcc1d7792d3bdc862e3f3be18a3cad84522ac34fd'
   )
 })
