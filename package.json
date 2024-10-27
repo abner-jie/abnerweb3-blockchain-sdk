@@ -25,9 +25,8 @@
     "test": "jest",
     "docs": "typedoc --entryPoints src/index.ts",
     "clean": "rm -rf dist build package",
-    "ts-node": "ts-node",
-    "build": "npm",
-    "build-all": "yarn clean && pnpm test && yarn build"
+    "build": "run-s lint clean test build:main",
+    "build:main": "tsc -p tsconfig.json"
   },
   "devDependencies": {
     "@types/jest": "^29.2.4",
@@ -40,6 +39,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "jest": "29.3.1",
+    "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
     "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",

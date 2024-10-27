@@ -6,7 +6,4 @@ dotenv.config({
 })
 
 // testnet env
-
 export const mnemonic: string = process.env.mnemonic!
-
-console.log('mnemonic:', mnemonic)
